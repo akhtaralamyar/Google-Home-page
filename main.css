@@ -1,0 +1,66 @@
+.mainDiv {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    
+    
+}
+
+html, body{
+    width:  100%;
+    height: 100%;
+}
+
+.googleTop{
+    width: 100%;
+    height: 30px;
+
+}
+
+.image{
+    position: absolute;
+    height: 184px;
+    width: 544px;
+    top: 200px;
+    left: 700px;
+}
+.searchBox{
+    height: 80px;
+    width: 544px;
+    position: absolute;
+    top:400px;
+    left: 680px;
+}
+
+.textBox {
+    height: 40px;
+    width: 560px;
+    font-size: larger;
+
+}
+.buttonSearch{
+    font-size: 25px;
+    height: 35;
+    width: 55;
+}
+.buttonsBox{ 
+    height: 35;
+    width: 500px;
+    position: absolute;
+    top: 460px;
+    left: 870px;
+}
+.bottomPage{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(167, 169, 170);
+    position: absolute;
+    bottom: 0px;
+    font-size: larger;
+}
+.linking{
+    column-span: all;
+    
+    white-space:  pre-line;
+}
