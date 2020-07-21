@@ -64,3 +64,9 @@ html, body{
     
     white-space:  pre-line;
 }
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
