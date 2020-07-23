@@ -1,3 +1,17 @@
+.navTopLeft{
+    float: left;
+    opacity: .75;
+    margin-top: 15px;
+    color: black;
+        font-family: helvetica;
+        font-size: 13px;
+        cursor: pointer;
+        text-decoration-line: none;
+        text-decoration-color: black;
+        margin-left: 15px;
+        margin-right: 3px;
+}
+
 .mainDiv {
     height: 100%;
     width: 100%;
@@ -7,10 +21,7 @@
     
 }
 
-html, body{
-    width:  100%;
-    height: 100%;
-}
+
 
 .googleTop{
     width: 100%;
@@ -37,7 +48,12 @@ html, body{
     height: 40px;
     width: 560px;
     font-size: larger;
+    border-radius: 20px;
+    border: 1px solid #bebaba;
 
+}
+.textBox:hover{
+ box-shadow: 1px 1px 3px 1px;
 }
 .buttonSearch{
     font-size: 25px;
@@ -69,4 +85,11 @@ ul{
 }
 li{
     display: inline;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+a:hover{
+    text-decoration-line: underline;
 }
